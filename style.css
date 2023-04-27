@@ -76,20 +76,6 @@ ul {
 li {
 	margin-bottom: 5px;
 }
-
-@media only screen and (hover: none) and (pointer: coarse) {
-	#form1SubmitButton {
-		-webkit-appearance: none ;
-	}
-	
-	#form2SubmitButton {
-		-webkit-appearance: none ;
-	}
-	
-	#reset {
-		-webkit-appearance: none ;
-	}
-}
 	
 @media (max-width: 600px) {
   main {
