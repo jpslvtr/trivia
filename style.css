@@ -3,7 +3,6 @@
 	/* --text-color: rgb(212, 212, 212); */
 	--back-color: rgb(255, 255, 255);
 	--text-color: rgb(0, 0, 0);
-	-webkit-appearance: none;
 }
 
 /* minimalist reset */
@@ -78,6 +77,17 @@ li {
 	margin-bottom: 5px;
 }
 
+#form1SubmitButton {
+	-webkit-appearance: none ;
+}
+
+#form2SubmitButton {
+	-webkit-appearance: none ;
+}
+
+#reset {
+	-webkit-appearance: none ;
+}
 
 @media (max-width: 600px) {
   main {
