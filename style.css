@@ -1,0 +1,89 @@
+:root {
+	/* --back-color: rgb(30, 30, 30); */
+	/* --text-color: rgb(212, 212, 212); */
+	--back-color: rgb(255, 255, 255);
+	--text-color: rgb(0, 0, 0);
+}
+
+/* minimalist reset */
+* {
+	padding: 0;
+	margin: 0;
+	font-size: 1em;
+	/* font-size: .95em; */
+}
+
+body {
+	/* background-color: rgb(30, 30, 30); */
+	/* color: rgb(212, 212, 212); */
+	background-color: rgb(255, 255, 255);
+	color: rgb(0, 0, 0);
+	/* font-family: -apple-system, BlinkMacSystemFont, avenir next, avenir, segoe ui, helvetica neue, helvetica, Cantarell, Ubuntu, roboto, noto, arial, sans-serif; */
+	font-family: "Times New Roman", Times, serif;
+}
+
+main {
+	margin: 0 auto;
+	padding: 30px 140px 0 140px;
+	max-width: 600px;
+	min-height: 100vh;
+}
+
+h1 {
+	font-size: 1.2em;
+	font-weight: 700;
+	display: inline;
+	margin-right: 5px;
+}
+
+h2 {
+	margin-top: 50px;
+	font-size: 1.5em;
+}
+
+h3 {
+	margin-top: 50px;
+	font-size: 2em;
+}
+
+footer {
+	text-align: right;
+	margin-top: 80px;
+	padding-bottom: 20px;
+}
+
+p {
+	line-height: 1.5em;
+	margin-top: 20px;
+	display: block;
+}
+
+a {
+	color: inherit;
+}
+a:hover, a:focus {
+	color: var(--back-color);
+	background-color: var(--text-color);
+}
+
+
+ul {
+	margin-left: 30px;
+	margin-top: 10px;
+	line-height: 1.5em;
+}
+
+li {
+	margin-bottom: 5px;
+}
+
+
+@media (max-width: 600px) {
+  main {
+  	max-width: 600px;
+    padding: 10px;
+  }
+  h2 {
+    font-size: 1.2em;
+  }	
+}
