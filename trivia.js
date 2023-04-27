@@ -4,6 +4,14 @@ function checkForm1() {
         alert("How. Many. Questions?!");
         return false;
     }
+    if(isNaN(x)) {
+        alert("Enter a number, pal.");
+        return false;
+    }
+    if(x < 1) {
+        alert("Minumum 1 question, pal.");
+        return false;
+    }
     if(x > 50) {
         alert("Max is 50 questions, pal.");
         return false;
