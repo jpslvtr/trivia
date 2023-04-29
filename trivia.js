@@ -61,9 +61,13 @@ function showQuestions() {
                 ((i+1)+ ". " + question + "<br>" + "<i>Answer: " + answer + "</a><br><br>");
         }
         var form1SubmitButton = document.getElementById("form1SubmitButton");
-        form1SubmitButton.style.display = 'none';
         var form2SubmitButton = document.getElementById("form2SubmitButton");
+        form1SubmitButton.style.display = 'none';
         form2SubmitButton.style.display = 'none';
+
+        var inputCat2 = data["results"][0].category;
+        document.getElementById("form1").innerHTML = "<b>Questions</b>: " + inputNum;
+        document.getElementById("hiddenForm").innerHTML = "<b>Category</b>: " + inputCat2;
     }
     };
     xhr.open("GET", request, false);
