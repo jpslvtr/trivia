@@ -1,6 +1,6 @@
 # Trivia Game
 
-A simple web-based trivia game that pulls questions from the [Open Trivia Database](https://opentdb.com/) API. No build step, no dependencies — just open it in a browser.
+A simple web-based trivia game that pulls questions from the [Open Trivia Database](https://opentdb.com/) API.
 
 ## Features
 
